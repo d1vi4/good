@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loc{
+    background-color: #f2eadf;
+    color: gray;
+    height: 70px;
+}
+.li{
+    font-family: Single Day;
+    font-size: 25px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 150px;
+    transition: 1s;
+}
+.lis{
+    background-color: #f2eadf;
+    color: orange;
+    border: orange solid 2px;
+    margin-left: 100px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.lis:hover{
+    transform: translate(20px);
+}
+.li:hover{
+    color: black;
+    cursor: pointer;
+}
+i{
+    color: orange;
+    margin-left: 50px;
+    transition: 1s;
+}
+i:hover{
+    transform: rotate(90deg);
+}
+.lo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+    border: black 2px solid;
+}
+.mm{
+    background-image: url(./b6e8df8d.jpg);
+    border: black 2px solid;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 400px;
+    position: relative;
+}
+.pipi{
+    font-family: Single Day;
+    position: absolute;
+    left: 65%;
+    text-align: center;
+    top: 25%;
+    font-size: 30px;
+}
+.lima{
+    background-color: white;
+    color: orange;
+    border: orange solid 2px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.beb{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.fuf{
+    border: black 2px solid;
+    width: 255px;
+    font-family: Single Day;
+    text-align: center;
+}
+span{
+    font-size: 30px;
+}
+.black{
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 50px;
+}
+.heg{
+    margin-top: 100px;
+    border: orange 2px solid;
+}
+.pin{
+    margin-top: 170px;
+    font-size: 30px;
+}
+.bi{
+    color: grey;
+    font-family: Single Day;
+    font-size: 40px;
+}
